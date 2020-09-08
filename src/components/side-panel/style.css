@@ -1,0 +1,17 @@
+.sidePanel {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-color: var(--global-palette-alice-blue);
+}
+
+@media screen and (max-width: 700px) {
+    .sidePanel {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+}

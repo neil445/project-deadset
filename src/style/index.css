@@ -3,10 +3,9 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	padding: 0 1vw;
 	margin: 0;
 	background: #FAFAFA;
-	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-family: segan-light;
 	font-weight: 400;
 	color: #444;
 	-webkit-font-smoothing: antialiased;
@@ -47,4 +46,22 @@ a {
   100% {
       background-position: 468px 0;
   }
+}
+
+@font-face {
+    font-family: "segan-light";
+    src: url("../assets/fonts/segan-light.woff") format('woff');
+}
+
+
+:root {
+    --global-palette-yale-blue: #274c77ff;
+    --global-palette-alice-blue: #e7ecefff;
+    --global-palette-battleship-grey: #8b8c89ff;
+    --global-palette-cerulean-frost: #6096baff;
+    --global-palette-baby-blue-eyes: #a3cef1ff;
+
+    --global-palette-primary: #274C77;
+    --global-palette-secondary: #E7ECEF;
+    --global-palette-disabled: #8B8C89;
 }
