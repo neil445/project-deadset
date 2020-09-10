@@ -21,9 +21,12 @@
 		<% if(htmlWebpackPlugin.options.seo && 'subtitle' in htmlWebpackPlugin.options.seo) {%>
 			<meta property="twitter:description" content="<%= htmlWebpackPlugin.options.seo.subtitle %>" />
 		<% } %>
+
 		<% preact.headEnd %>
+		
 	</head>
 	<body>
 		<% preact.bodyEnd %>
 	</body>
+	<script src="https://kit.fontawesome.com/793de928cf.js" crossorigin="anonymous"></script>
 </html>
