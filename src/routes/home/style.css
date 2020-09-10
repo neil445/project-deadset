@@ -7,15 +7,30 @@
 .banner {
 	background-color: var(--global-palette-alice-blue);
 	height: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .content {
 	height: inherit;
+	display: flex;
+	flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contentTiles {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media all and (max-width: 728px) {
 	.home {
 		padding: 16px;
+	}
+
+	.contentTiles {
+		display: block;
 	}
 }
 
