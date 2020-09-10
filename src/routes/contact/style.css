@@ -30,7 +30,8 @@
 }
 
 .pageContact .formWrapper {
-  display: flex;
+  display: block;
+  width: 400px;
 }
 
 .pageContact form {
